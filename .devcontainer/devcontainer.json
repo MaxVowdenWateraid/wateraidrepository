@@ -1,0 +1,33 @@
+{
+  "name": "WaterAidWorkshop",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-toolsai.vscode-ai",
+        "ms-python.python",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-toolsai.jupyter",
+        "ms-python.autopep8",
+        "mhutchie.git-graph",
+        "tamasfe.even-better-toml",
+        "DavidAnson.vscode-markdownlint",
+        "ms-python.python",
+        "tanhakabir.rest-book",
+        "prompt-flow.prompt-flow"
+      ]
+    }
+  },
+  "containerEnv": {
+      "PYTHONPATH": "/workspaces/WaterAidWorkshop/",
+      "SP_ID": "",
+      "SP_SECRET": "",
+      "TENANT_ID": "",
+      "RG": "",
+      "WS": ""
+    }
+}
