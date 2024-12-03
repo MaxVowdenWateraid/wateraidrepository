@@ -23,7 +23,7 @@
     }
   },
   "containerEnv": {
-      "PYTHONPATH": "/workspaces/WaterAidWorkshop/",
+      "PYTHONPATH": "/workspaces/wateraidrepository/",
       "SP_ID": "",
       "SP_SECRET": "",
       "TENANT_ID": "",
