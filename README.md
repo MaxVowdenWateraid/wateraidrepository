@@ -8,6 +8,6 @@ base of project
 export SP_ID=
 export SP_SECRET=
 export TENANT_ID=
-export RG=
-export WS=
+export RG=training_and_demos
+export WS=wateraidtraining
 ``
